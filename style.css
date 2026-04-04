@@ -1,0 +1,114 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+#maincontainer{
+    width: 90vw;
+    height: 100vh;
+    background-color:#f0f0f0;  
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.innerbox{
+    width: 400px;
+    height: 350px;
+    background-color:#ffffff;
+    float: left;
+    color:black;
+    text-align: center;
+    border: 5px solid #ffcd11;
+    padding: 5px;
+}
+.innerbox:hover{
+    background-color: #ffcd11;
+    border: 5px solid #ffffff ;
+}
+#banner{
+    width: 90%;
+    height: 380px;
+    margin: auto;
+    color: #ffffff;
+    background-image:url('https://ik.imagekit.io/y4oa5i1ao/bg-pattern.png');
+    background-repeat: repeat;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+#nav{
+    width: 100vw;
+    height: 50px;
+    margin: auto;
+    display: flex;
+    flex-wrap:wrap ;
+    justify-content: center;
+    gap: 10px;
+}
+#nav a{
+    padding: 5px; 
+    background-color: rgb(117, 161, 210);
+    margin: 8px;
+}
+#nav a:hover{
+background-color: rgb(70, 88, 222);
+ border-bottom: 3px solid red;
+}
+#about{
+    width: 90vw;
+    height: 40vh;
+    margin: auto;
+    color: black;
+}
+#about p{
+    text-align: left;
+    font-size: 20px;
+}
+#contact{
+    width: 65%;
+}
+#contact h2{
+    background: #4CAF50;
+    color: white;
+    padding: 10px;
+    margin: 0;
+}
+form{
+    background: white;
+    padding: 15px;
+}
+input, textarea {
+    width: 75%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 1px;
+}
+.port{
+    width: 600px;
+    height: 300px;
+    border: 3px solid gray;
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.port img{
+   width: 600px;
+    height:300px;
+
+}
+#main{
+    width: 85%;
+    height: 100%;
+    background-color: white;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+}
